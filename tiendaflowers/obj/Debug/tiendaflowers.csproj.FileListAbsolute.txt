@@ -1,0 +1,6 @@
+c:\users\doc-con\documents\visual studio 2013\Projects\tiendaflowers\tiendaflowers\bin\tiendaflowers.dll.config
+c:\users\doc-con\documents\visual studio 2013\Projects\tiendaflowers\tiendaflowers\bin\tiendaflowers.dll
+c:\users\doc-con\documents\visual studio 2013\Projects\tiendaflowers\tiendaflowers\bin\tiendaflowers.pdb
+c:\users\doc-con\documents\visual studio 2013\Projects\tiendaflowers\tiendaflowers\obj\Debug\tiendaflowers.csprojResolveAssemblyReference.cache
+c:\users\doc-con\documents\visual studio 2013\Projects\tiendaflowers\tiendaflowers\obj\Debug\tiendaflowers.dll
+c:\users\doc-con\documents\visual studio 2013\Projects\tiendaflowers\tiendaflowers\obj\Debug\tiendaflowers.pdb

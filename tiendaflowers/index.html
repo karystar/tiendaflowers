@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tienda Flowers</title>
+    <link href="public/style.css" rel="stylesheet" />
+    <script type="text/javascript">
+        var logeado = false;
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="default.asp">Inicio</a></li>
+            <li><a href="forms/categorias.asp">Categorias</a></li>
+            <li><a href="forms/carro.asp">Carro de compras</a></li>
+            <li><a href="forms/registro.asp" id="sesion">Registrarse</a></li>
+            <li><a href="forms/about.asp">Acerca de</a></li>
+        </ul> 
+    </div>
+    <br />
+    <center>
+        <iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/xW_AsV7k42o?rel=0&amp;showinfo=0;autoplay=1;fs=0;" frameborder="0"></iframe>
+    </center>
+    <br />
+    <div class="catalogo">
+        <center>
+
+        </center>
+    </div>
+    
+    <script type="text/javascript">
+            function elemento(id) {
+                return document.getElementById(id);
+            }
+
+            function elementos(clase) {
+                return document.getElementsByClassName(clase);
+            }
+
+            // Se verifica que haya iniciado sesión el usuario
+            var sesion = elemento('sesion');
+            if (logeado) {
+                sesion.innerHTML = 'Cerrar sesión';
+                sesion.setAttribute('href', "logout.asp");
+            }
+    </script>
+</body>
+</html>
